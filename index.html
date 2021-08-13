@@ -7,18 +7,36 @@
     <title>reto random 2</title>
     <link rel="stylesheet" href="./sass/custom.css">
 </head>
-<body class="bg-primary">
+<body>
     <main class="d-flex container align-items-center justify-content-center alto-100">
-        <article class="card d-flex container p-0">
+        <article class="card d-flex container p-0 shadow">
             <div class="card-body bg-white p-0">
                 <div>
-                    <img class="img-fluid" src=./assets/illustration-hero.svg>
+                    <img src="./assets/illustration-hero.svg" class="card-img-top" alt="...">
                 </div>
                 <br>
                 <div>
                     <h1 class="text-center">Order Summary</h1>
                     <p class="text-center p-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius aliquam ex optio quisquam!</p>
                 </div>
+                <div class="mx-4 d-flex justify-content-center card">
+                    <div class="card-body bg-dark d-flex justify-content-center">
+                        <img src="./assets/icon-music.svg" class="img2">
+                        <div class="mx-4">
+                            <p class="my-0">Annual Plan</p>
+                            <p class="text-muted my-0">$11.11/abcde</p>
+                        </div>
+                        <div class="d-flex bd-highlight">
+                            <a class="text-end bd-highlight">Change</a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="d-grid gap-2 mx-4">
+                    <button type="button" class="btn btn-info shadow">Proceed to Payment</button>
+                    <button type="button" class="btn btn-white shadow" pointer-events:none>Cancel Order</button>
+                </div>
+                <br><br>
             </div>
         </article>
     </main>

@@ -4,6 +4,9 @@
   }
 }
 
+$info: #6c5cff;
+$dark: #c9c7c7;
+
 $container-max-widths: (
   sm: 300px,
   md: 350px,
@@ -11,5 +14,19 @@ $container-max-widths: (
   xl: 450px,
   xxl: 450px
 );
+
+.img2{
+  height: 50px;
+  width: 50px
+}
+
+body{
+  background-image: url("../assets/pattern-background-desktop.svg");
+  background-color: white;
+}
+
+h1{
+  font-size: small;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
